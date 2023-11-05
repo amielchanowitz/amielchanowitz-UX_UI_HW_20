@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  background-color: #6D4A8E;
+  padding: 15px;
+}
+header ul {
+  float: right;
+  color: white;
+}
+header li {
+  display: inline-block;
+  padding: 0px 5px;
+}
+header p {
+  display: inline-block;
+}
+.heroImg {
+  background-color: #EBEBEB;
+  padding: 100px 15px;
+}
+.content {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+button {
+  padding: 15px;
+  background-color: #6D4A8E;
+  color: white;
+  font-size: 15px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+footer {
+  background-color: #6D4A8E;
+  padding: 5px;
+  color: white;
+}
+footer ul {
+  list-style: none;
+  padding-left: 5px;
+}
+footer li {
+  display: inline-block;
+  padding: 0px 7px;
+}
+p {
+  text-align: left;
+}
+#headerImage {
+  height: 300px;
+  width: 300px;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 24px;
+  width: 80%; /* Could be more or less, depending on screen size */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  /* text-align: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+.modalCopy {
+  text-align: center;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* .myBTN {
+
+} */
+.heroImage {
+  transform: scale(0.5);
+}
